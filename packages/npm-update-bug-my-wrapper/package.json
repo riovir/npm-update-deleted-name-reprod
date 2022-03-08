@@ -1,0 +1,11 @@
+{
+	"name": "@my-scope/npm-update-bug-my-wrapper",
+	"version": "0.0.0",
+	"main": "main.js",
+	"scripts": {
+		"start": "node main.js"
+	},
+	"dependencies": {
+		"@my-scope/npm-update-bug-my-lib": "0.0.0"
+	}
+}

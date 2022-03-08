@@ -1,0 +1,16 @@
+{
+  "name": "@my-scope/npm-update-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start -w @my-scope/npm-update-bug-my-wrapper"
+  },
+  "workspaces": [
+    "packages/npm-update-bug-my-lib",
+    "packages/npm-update-bug-my-wrapper"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
